@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PaceTimer Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- 顶部：时间显示和编辑按钮 -->
+    <div class="time-controls">
+      <div class="time-group">
+        <span>Total Time: <span id="totalTime">10:00</span></span>
+        <button class="edit-btn" data-type="total">Edit</button>
+      </div>
+      <div class="time-group">
+        <span>Yellow Warning: <span id="yellowTime">08:00</span></span>
+        <button class="edit-btn" data-type="yellow">Edit</button>
+      </div>
+      <div class="time-group">
+        <span>Red Warning: <span id="redTime">02:00</span></span>
+        <button class="edit-btn" data-type="red">Edit</button>
+      </div>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <!-- 中间：计时器显示 -->
+    <div id="timerDisplay">10:00</div>
+
+    <!-- 底部：开始/暂停按钮 -->
+    <button id="startPauseBtn">Start</button>
+  </div>
+
+  <!-- 编辑时间的弹窗 -->
+  <div id="editModal" class="modal">
+    <div class="modal-content">
+      <h2>Edit Time</h2>
+      <input type="number" id="editMinutes" min="0" placeholder="Minutes">
+      <input type="number" id="editSeconds" min="0" max="59" placeholder="Seconds">
+      <button id="saveEditBtn">Save</button>
+      <button id="cancelEditBtn">Cancel</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
