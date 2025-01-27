@@ -6,6 +6,8 @@ PaceTimer Web 是一个专为演讲、演示或其他需要严格时间控制的
 
 - **iOS 应用链接** [点此访问](https://apps.apple.com/us/app/%E8%8A%82%E5%A5%8F%E8%AE%A1%E6%97%B6/id6740053131?l=zh-Hans-CN)
 
+[English Version](./README_EN.md) 
+
 
 ## 功能特性
 
@@ -36,7 +38,10 @@ PaceTimer Web 是一个专为演讲、演示或其他需要严格时间控制的
 
 ## 示例
 
-![PaceTimer Web 示例](https://via.placeholder.com/800x600.png?text=PaceTimer+Web+Demo)
+![PaceTimer Web 示例](./web.png)
+
+![PaceTimer iOS 示例](./ios.png)
+
 
 ## 支持我
 
